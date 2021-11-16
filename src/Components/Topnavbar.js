@@ -10,7 +10,7 @@ const Topnavbar = () => {
 
     return(
 
-        <Container fluid className="border p-3 bg-light">
+        <Container fluid className="border p-3 bg-light ">
         <Row className="pt-2 d-flex justify-content-center ">
            <Col className="d-flex justify-content-start ">
            <FontAwesomeIcon   className = "pe-1" icon={faPhoneSquareAlt} size="2x"/>

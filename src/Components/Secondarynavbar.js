@@ -7,7 +7,7 @@ const Secondarynavbar = () =>
      <div>
 
 
-   <Navbar  expand="lg">
+   <Navbar  expand="lg" className="sticky-top">
   <Container fluid className="mt-3 ps-5">
     <Navbar.Brand  className ="text-dark h5" href="#home">FlyFarLadies</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
