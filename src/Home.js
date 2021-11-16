@@ -6,6 +6,7 @@ import Toursection from "./Components/Toursection";
 
 
 
+
 const Home = () => {
     return (
         
@@ -13,6 +14,8 @@ const Home = () => {
         <Topnavbar />
         <Secondarynavbar />
         <Toursection />
+        
+        
 
        
 
