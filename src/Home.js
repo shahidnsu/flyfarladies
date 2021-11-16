@@ -1,5 +1,6 @@
 
 import React from "react";
+import Secondarynavbar from "./Components/Secondarynavbar";
 import Topnavbar from "./Components/Topnavbar";
 
 
@@ -9,6 +10,7 @@ const Home = () => {
         
         <div>
         <Topnavbar />
+        <Secondarynavbar />
 
        
 
