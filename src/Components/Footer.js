@@ -1,5 +1,5 @@
 
-import { ArrowRight } from 'react-bootstrap-icons';
+import { faFacebook, faGoogle, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Container,Row,Col,Button } from "react-bootstrap";
@@ -10,10 +10,10 @@ const Footer = () => {
 
         <Container fluid className="mt-5">
             <Row >
-                <Col className="d-flex justify-content-between">
+                <Col className="d-flex justify-content-around">
                     <p className="h3">READY FOR YOUR NEXT ADVENTURE</p>
-                    <p className="h4 ">QUICK LINKS</p>
-                    <p className="h4">Social with us</p>
+                    <p className="h4 me-5">QUICK LINKS</p>
+                    <p className="h4 me-5">Social with us</p>
 
 
                 </Col>
@@ -40,7 +40,7 @@ const Footer = () => {
 
                 
 
-                <Col className="mt-3 ">
+                <Col className="mt-3 me-5 ">
 
                 <div className="vstack gap-3">
 
@@ -68,10 +68,13 @@ const Footer = () => {
                 </div>
 
                 </Col>
-                <Col className="hstack gap-3">
+                <Col className="hstack gap-3 align-items-start ">
 
-                <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    
+                <FontAwesomeIcon icon ={faFacebook} size="3x"/> 
+                <FontAwesomeIcon icon={faTwitter} size="3x" />
+                <FontAwesomeIcon icon ={faYoutube} size="3x" />
+                <FontAwesomeIcon icon={faGoogle} size="3x" />
+                                  
                 </Col>
 
                 </Row>
