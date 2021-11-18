@@ -1,8 +1,8 @@
-import React from 'react'
-import Card from './Card'
+import React from 'react';
+
 import { Carousel,Container,Row,Col } from 'react-bootstrap'
 
-const Slideshow = () => {
+const Slideshow = ({item}) => {
 
     return (
         <div>
@@ -13,13 +13,13 @@ const Slideshow = () => {
             <Row className="mt-5 ms-2 d-flex">
                  <Col>
             
-                <Card  des = "Ankara" price= "$1950.00" day ="1" people="10" />
+                {item}
                 </Col>
                 <Col >
-                <Card  des = "Khulna" price= "$2000.00" day ="3" people="10"/>
+                {item}
                 </Col>
                 <Col >
-                <Card des = "Cox's Bazar" price= "$1200.00" day ="5" people="10" />
+                {item}
                 </Col>
                 </Row>
                 
@@ -32,13 +32,13 @@ const Slideshow = () => {
             <Row className="mt-5 ms-2 d-flex">
                  <Col>
             
-                <Card  des = "Ankara" price= "$1950.00" day ="1" people="10" />
+                {item}
                 </Col>
                 <Col >
-                <Card  des = "Khulna" price= "$2000.00" day ="3" people="10"/>
+                {item}
                 </Col>
                 <Col >
-                <Card des = "Cox's Bazar" price= "$1200.00" day ="5" people="10" />
+                 {item}
                 </Col>
                 </Row>
                 
@@ -50,13 +50,13 @@ const Slideshow = () => {
             <Row className="mt-5 ms-2 d-flex">
                  <Col>
             
-                <Card  des = "Ankara" price= "$1950.00" day ="1" people="10" />
+                {item}
                 </Col>
                 <Col >
-                <Card  des = "Khulna" price= "$2000.00" day ="3" people="10"/>
+                {item}
                 </Col>
                 <Col >
-                <Card des = "Cox's Bazar" price= "$1200.00" day ="5" people="10" />
+                {item}
                 </Col>
                 </Row>
                 

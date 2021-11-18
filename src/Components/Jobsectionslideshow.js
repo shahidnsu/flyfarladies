@@ -1,6 +1,6 @@
-import {  } from "bootstrap";
+
 import React from "react";
-import { Container,Row,Col } from "react-bootstrap";
+import { Row,Col } from "react-bootstrap";
 import Jobsectioncard from "./Jobsectioncard";
 
 

@@ -2,6 +2,7 @@
 import React from "react";
 import { Container,Row,Col } from "react-bootstrap";
 import Slideshow  from "./Slideshow";
+import Card from "./Card";
 
 
 const Toursection = () => {
@@ -19,7 +20,7 @@ const Toursection = () => {
                 </Row>
 
             </Container>
-            <Slideshow />
+            <Slideshow item =  {<Card  des = "Ankara" price= "$1950.00" day ="1" people="10" />}/>
 
             
 

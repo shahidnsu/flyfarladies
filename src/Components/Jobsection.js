@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
-import Jobsectionslideshow from './Jobsectionslideshow';
+import Jobsectioncard from './Jobsectioncard';
+
+import Slideshow from './Slideshow';
 
 const Jobsection = () => 
 {
@@ -18,7 +20,7 @@ const Jobsection = () =>
             </Container>
             
 
-            <Jobsectionslideshow />
+            <Slideshow item={<Jobsectioncard name="Accounting" number="5"  />} />
             
             
 
