@@ -8,8 +8,8 @@ import { faBookmark } from "@fortawesome/free-regular-svg-icons";
 const Jobsectioncard =({name,number}) => {
     return (
 
-        <div>
-             <Card style={{ width: '20rem' ,height : '28rem'}}>
+        <div >
+             <Card  className ="shadow-lg"style={{ width: '20rem' ,height : '28rem'}}>
        <Card.Img variant="top" src={test} />
          <Card.Body>
          

@@ -10,7 +10,7 @@ const card = ({des, price, day,people}) => {
         <div>
 
       
-                 <Card style={{ width: '18rem' ,height : '32rem'}}>
+                 <Card className="shadow-lg" style={{ width: '18rem' ,height : '32rem'}}>
        <Card.Img variant="top" src={test} />
          <Card.Body>
          <div className="d-flex justify-content-between">
