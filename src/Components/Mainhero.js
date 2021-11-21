@@ -60,11 +60,11 @@ const Mainhero = () => {
 
     <Container fluid className="main-hero-body d-flex flex-column align-items-center justify-content-center">
         
-            <Row>
+            <Row className="shadow">
                 <p className="h2 text-center mt-5">ADVENTURE IS WORTHWHILE</p>
 
             </Row>
-        <Row className="mt-5 d-flex">
+        <Row className="mt-5 d-flex pt-5 shadow-lg">
             <Col> 
             
             <p className="h4">Find your next Destination</p>
