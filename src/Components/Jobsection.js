@@ -20,7 +20,7 @@ const Jobsection = () =>
             </Container>
             
 
-            <Slideshow item={<Jobsectioncard name="Accounting" number="5"  />} />
+            <Slideshow item = {<Jobsectioncard name="Accounting" number="5"  />} />
             
             
 
