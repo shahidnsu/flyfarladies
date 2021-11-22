@@ -10,18 +10,18 @@ const Footer =() => {
         <div>
             <Container fluid className="mt-5">
                 <Row >
-                <Col  md={5} xs={12} sm={12} lg={5}>
+                <Col  >
                     <p className="h2 text-center"> READY FOR NEXT ADVENTURE?</p>
                     <div className="d-flex mt-5">
-                    <Stack gap={3} className="col-md-3 col-sm-12 col-xs-12 col-lg-3">
-                    <input type="name" placeholder="First Name.."></input>
+                    <Stack gap={3} className="col-md-2 col-sm-12 col-xs-12 col-lg-2">
+                    <input   type="name" placeholder="First Name.."></input>
                     <input type="name" placeholder="Email ID.."></input>
                     <input type="name" placeholder="Travel Date.."></input>
                     <input type ="textArea" placeholder="Tell us about your dream  adventure.."></input>
                         
                     </Stack>
 
-                    <Stack gap={3} className="col-md-3 col-sm-12 col-xs-12 col-lg-3 mx-3">
+                    <Stack gap={3} className="col-md-2 col-sm-12 col-xs-12 col-lg-2 mx-3">
                     <input type="name" placeholder="Last Name.."></input>
                     <input type="name" placeholder="Contact No."></input>
                     <input type="name" placeholder="Number of People.."></input>
