@@ -21,11 +21,11 @@ const Mainhero  = () => {
     <Container fluid>
     <Row className="d-flex mt-5 journey-search align-items-center mx-3">
 
-    <Col sm={12} xs={12}>
+    <Col sm={12} xs={12} md={2}>
           <p className="h2 journey-search-left"> Find Your <br></br><strong>Destination</strong></p>
 
           </Col>
-          <Col sm={12} xs={12}>
+          <Col sm={12} xs={12} md={2}>
         <select name="years" id="years">
             <option value="select year">Select Year</option>
             <option value="2021">2021</option>
@@ -34,7 +34,7 @@ const Mainhero  = () => {
           </select>
           
           </Col>
-          <Col sm={12} xs={12}>
+          <Col sm={12} xs={12} md={2}>
           <select name="month" id="month">
        <option value="Select Month">Select Month</option>
        <option value="January">January</option>
@@ -52,7 +52,7 @@ const Mainhero  = () => {
   </select>
             
           </Col>
-          <Col>
+          <Col sm={12} xs={12} md={2}>
           <select name="tour" id="tour">
         <option value="inbound/outbound">Select Inbound/outBound</option>
        <option value="Inbound">Inbound</option>
@@ -60,7 +60,7 @@ const Mainhero  = () => {
        
      </select>
           </Col>
-          <Col sm={12} xs={12}>
+          <Col sm={12} xs={12} md={2}>
         <select name="tripday" id="tripday">
           <option value="Day Trip/ night trip">Select Day trip/Night out</option>
           <option value="daytrip">DayTrip</option>
@@ -68,7 +68,7 @@ const Mainhero  = () => {
          
        </select>
           </Col>
-          <Col sm={12} xs={12} >
+          <Col sm={12} xs={12} md={2} >
           <button className="btn-search">SEARCH</button>
           
           </Col>
@@ -79,73 +79,7 @@ const Mainhero  = () => {
 
     
     
-  {/*
-      <Container fluid className=" mt-5  main-hero-body">
-      <Row >
-        <Col className="mt-5">
-        <p className="h1 text-center mt-5 main-hero-banner">Adventure is Worthwhile</p>
-        </Col>
-      
-      
-      
-        <div className= "d-flex mt-5 journey-search">
-        
-        
-          <Col >
-          <p className="h2 journey-search-left"> Find Your <br></br><strong>Destination</strong></p>
-
-          </Col>
-          <Col>
-        <select name="years" id="years">
-            <option value="select year">Select Year</option>
-            <option value="2021">2021</option>
-            <option value="2022">2022</option>
-    
-          </select>
-          
-          </Col>
-          <Col>
-          <select name="month" id="month">
-       <option value="Select Month">Select Month</option>
-       <option value="January">January</option>
-      <option value="February">February</option>
-       <option value="March">March</option>
-       <option value="April">April</option>
-       <option value="May">May</option>
-       <option value="June">June</option>
-       <option value="July">July</option>
-       <option value="August">August</option>
-       <option value="September">September</option>
-       <option value ="October">October</option>
-       <option value="November">November</option>
-       <option value="December">December</option>
-  </select>
-            
-          </Col>
-          <Col>
-          <select name="tour" id="tour">
-        <option value="inbound/outbound">Select Inbound/outBound</option>
-       <option value="Inbound">Inbound</option>
-       <option value="Outbound">OutBound</option>
-       
-     </select>
-          </Col>
-          <Col>
-        <select name="tripday" id="tripday">
-          <option value="Day Trip/ night trip">Select Day trip/Night out</option>
-          <option value="daytrip">DayTrip</option>
-         <option value="nighttrip">NightTrip</option>
-         
-       </select>
-          </Col>
-          <Col>
-          <button className="btn-search">SEARCH</button>
-          
-          </Col>
-        </div>
-        </Row>
-      </Container>
-      */}
+  
     </div>
   )
 }
