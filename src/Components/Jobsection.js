@@ -10,7 +10,7 @@ const Jobsection = () =>
         <div>
 
             <Container fluid>
-            <Row className="mt-5 me-5">
+            <Row className="mt-5 me-5 ">
             <Col>
 
                 <p className="h4 text-center">Employee Offering job</p>
@@ -20,7 +20,7 @@ const Jobsection = () =>
             </Container>
             
 
-            <Slideshow item={<Jobsectioncard name="Accounting" number="5"  />} />
+            <Slideshow item = {<Jobsectioncard name="Accounting" number="5"  />} />
             
             
 
