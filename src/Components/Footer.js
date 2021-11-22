@@ -46,7 +46,7 @@ const Footer =() => {
                 </div>
 
                 </Col>
-                <Col md={3} xs={12} sm={12} lg={3} className="mt-2">
+                <Col md={3} xs={12} sm={12} lg={3} className="mt-1">
                 <p className="h2">SOCIAL WITH US</p>
 
                 <Stack direction ="horizontal" gap={3} className="mt-4">
