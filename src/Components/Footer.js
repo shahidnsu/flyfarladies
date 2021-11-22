@@ -36,12 +36,9 @@ const Footer = () => {
 
                 
 
-<<<<<<< HEAD
-                <Col  lg ={3} className="mt-3 me-5 ">
-=======
+                
                 <Col className="mt-3 me-5 ">
                    
->>>>>>> 84f2bc0172af4dea43f4ae10c3d3c6c5a301121e
 
                 <div className="vstack gap-3">
 
