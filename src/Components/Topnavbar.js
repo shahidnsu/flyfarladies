@@ -10,9 +10,9 @@ const Topnavbar = () => {
 
     return(
 
-        <Container fluid className="border p-3 bg-light ">
-        <Row className="pt-2 d-flex justify-content-center ">
-           <Col className="d-flex justify-content-start ">
+        <Container fluid className="border p-3 bg-light">
+        <Row className="pt-2 d-flex">
+           <Col  lg={6}className="d-flex justify-content-start">
            <FontAwesomeIcon   className = "pe-1" icon={faPhoneSquareAlt} size="2x"/>
                 <h5>0175558211, info@flyfarladies.com</h5> 
             </Col>
@@ -25,9 +25,6 @@ const Topnavbar = () => {
                 </Col>   
                 
                 
-                
-        
-
         </Row>
             
     </Container>

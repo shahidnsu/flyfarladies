@@ -22,7 +22,7 @@ const Footer = () => {
             <Container fluid className="mt-3">
                 <Row className="d-flex">
                 
-                <Col className="mt-3">
+                <Col lg={3} className="mt-3">
                 
                 <div className="vstack gap-3">
 
@@ -40,7 +40,7 @@ const Footer = () => {
 
                 
 
-                <Col className="mt-3 me-5 ">
+                <Col  lg ={3} className="mt-3 me-5 ">
 
                 <div className="vstack gap-3">
 
@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
 
                 </Col>
-                <Col className="hstack gap-3 align-items-start ">
+                <Col lg ={3} className="hstack gap-3 align-items-start ">
 
                 <FontAwesomeIcon icon ={faFacebook} size="3x"/> 
                 <FontAwesomeIcon icon={faTwitter} size="3x" />
