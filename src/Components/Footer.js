@@ -1,84 +1,75 @@
 
-import { faFacebook, faGoogle, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
-import { Container,Row,Col,Button } from "react-bootstrap";
-import "../assets/style/footer.css"
+import { faFacebook, faGoogle, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import { Container,Row,Col,Stack,Button } from 'react-bootstrap';
 
-const Footer = () => {
+const Footer =() => {
+
     return(
         <div>
+            <Container fluid className="mt-5">
+                <Row >
+                <Col  md={5} xs={12} sm={12} lg={5}>
+                    <p className="h2 text-center"> READY FOR NEXT ADVENTURE?</p>
+                    <div className="d-flex mt-5">
+                    <Stack gap={3} className="col-md-3 col-sm-12 col-xs-12 col-lg-3">
+                    <input type="name" placeholder="First Name.."></input>
+                    <input type="name" placeholder="Email ID.."></input>
+                    <input type="name" placeholder="Travel Date.."></input>
+                    <input type ="textArea" placeholder="Tell us about your dream  adventure.."></input>
+                        
+                    </Stack>
 
-        
-        
-            <Container fluid className="mt-5 shadow-lg">
-                <Row className="d-flex  ">
-                <p className="h3 ps-5"> READY FOR YOUR NEXT ADVENTURE </p>
-                    
-                
-                <Col lg={3} className="mt-3">
-                
-                    
-                
-                <div className="vstack gap-3">
+                    <Stack gap={3} className="col-md-3 col-sm-12 col-xs-12 col-lg-3 mx-3">
+                    <input type="name" placeholder="Last Name.."></input>
+                    <input type="name" placeholder="Contact No."></input>
+                    <input type="name" placeholder="Number of People.."></input>
+                    <Button variant="outline-secondary">Secondary</Button>
+                        
+                    </Stack>
+                    </div>
+                </Col>
 
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name"></input>
+                <Col md={2} lg={2} sm={12} xs={12} className="mt-1">
 
-                <input type="text" class="form-control" placeholder="Email ID" aria-label="Email ID"></input>
-
-                <input type="text" class="form-control" placeholder="Travel Date" aria-label="Travel Date.."></input>
-                <input type="text" class="form-control" placeholder="Tell us about your dream adventure" aria-label="dream adventure"></input>
-
-
+                <p className="h2 text-center">QUICK LINKS</p>
+                <div className="mt-3 mx-3">
+                   <Stack gap={3}>
+                   <a href="#">Home</a>
+                   <a href="#">About Us</a>
+                   <a href="#">Contact Us</a>
+                   <a href="#">Terms and Conditions</a>
+                   <a href="#">Privacy Policy</a>
+                   <a href="#">Refund Policy</a>
+                   </Stack>
                 </div>
 
                 </Col>
+                <Col md={3} xs={12} sm={12} lg={3} className="mt-2">
+                <p className="h2">SOCIAL WITH US</p>
 
-                
+                <Stack direction ="horizontal" gap={3} className="mt-4">
+                  <FontAwesomeIcon icon={faFacebook} size="3x" />
+                 <FontAwesomeIcon icon ={faYoutube} size="3x"/>
+                 <FontAwesomeIcon icon= {faLinkedin} size="3x"/>
+                 <FontAwesomeIcon icon ={faTwitter} size="3x"/>
+                 <FontAwesomeIcon icon ={faGoogle} size="3x"/>
 
-                
-                <Col className="mt-3 me-5 ">
-                   
-
-                <div className="vstack gap-3">
-
-                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last  Name"></input>
-
-                <input type="text" class="form-control" placeholder="contact no" aria-label="Contact No.."></input>
-
-                <input type="text" class="form-control" placeholder="Number of People" aria-label="Number of People.."></input>
-                <Button variant="primary">Submit</Button>
-                </div>
+                  </Stack>
 
                 </Col>
 
-                <Col>
-                
-                
-
-                <div className="vstack gap-3 ms-5">
-                    <a className ="h5" href="#">Home</a>
-                    <a className ="h5" href="#">About us</a>
-                    <a className ="h5" href="#">Contact Us</a>
-                    <a className ="h5" href="#">Terms and Conditions</a>
-                    <a className ="h5" href="#">Privacy Policy</a>
-                    <a className ="h5" href="#">Refund Policy</a>
-                    
-                </div>
-
-                </Col>
-                <Col lg ={3} className="hstack gap-3 align-items-start ">
-
-                <FontAwesomeIcon icon ={faFacebook} size="3x"/> 
-                <FontAwesomeIcon icon={faTwitter} size="3x" />
-                <FontAwesomeIcon icon ={faYoutube} size="3x" />
-                <FontAwesomeIcon icon={faGoogle} size="3x" />
-                                  
-                </Col>
 
                 </Row>
             </Container>
         </div>
     )
+
+
+
 }
+
+
+
 export default Footer
