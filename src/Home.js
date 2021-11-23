@@ -10,6 +10,7 @@ import Mainhero from "./Components/Mainhero";
 
 
 
+
 const Home = () => {
     return (
         
@@ -20,6 +21,7 @@ const Home = () => {
         <Toursection />
         <Jobsection /> 
         <MainImage />
+       
          <Footer />
         
         
