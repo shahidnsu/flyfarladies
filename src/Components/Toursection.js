@@ -23,12 +23,15 @@ const Toursection = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid>
-                <Row className="d-flex justify-content-end ms-1 mt-3">
-                    <Col md={6} lg={6} xs={12} sm={12}>
+            <Container fluid >
+                <Row className="d-flex flex-row justify-content-around">
+                    <Col md={4} lg={4} xs={12} sm={12}>
                         <Card des="Ankara" price="$20000" day="4" people="5" />
                     </Col>
-                    <Col md={6} lg={6} xs={12} sm={12}>
+                    <Col md={4} lg={4} xs={12} sm={12} >
+                    <Card des="Khulna" price="$2000" day="3" people="7" />
+                    </Col>
+                    <Col md={4} lg={4} xs={12} sm={12}>
                     <Card des="Khulna" price="$2000" day="3" people="7" />
                     </Col>
                 </Row>

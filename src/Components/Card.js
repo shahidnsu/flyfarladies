@@ -3,7 +3,7 @@ import { faCircleNotch,  faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import test from "../assets/images/test.jpeg"
 import {Card}  from "react-bootstrap";
-
+import '../assets/style/card.css';
 const card = ({des, price, day,people}) => {
 
     return(
@@ -16,7 +16,7 @@ const card = ({des, price, day,people}) => {
          <div className="d-flex justify-content-between">
 
          <Card.Title>{des}</Card.Title>
-         <p className="h4">{price}</p>
+         <p className="card-text">{price}</p>
          </div>
           
            <Card.Text>
