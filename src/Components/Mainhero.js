@@ -21,8 +21,8 @@ const Mainhero  = () => {
     <Container fluid>
     <Row className="d-flex mt-5 journey-search align-items-center mx-3">
 
-    <Col sm={12} xs={12} md={2}>
-          <p className="h2 journey-search-left"> Find Your <br></br><strong>Destination</strong></p>
+    <Col sm={12} xs={12} md={2} journey-search-left>
+          <p>Find Your <br></br><strong>Destination</strong></p>
 
           </Col>
           <Col sm={12} xs={12} md={2}>
