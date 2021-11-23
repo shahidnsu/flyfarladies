@@ -1,4 +1,10 @@
-.footer-body {
-    background-color: #632065;
-    height: 100%;
+.footer-submit-button {
+    background-color: #632065 ;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    color:#fff;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #632065;
 }
