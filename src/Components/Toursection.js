@@ -24,7 +24,7 @@ const Toursection = () => {
                 </Row>
             </Container>
             <Container fluid>
-                <Row className="d-flex justify-content-between ms-1">
+                <Row className="d-flex justify-content-end ms-1 mt-3">
                     <Col md={6} lg={6} xs={12} sm={12}>
                         <Card des="Ankara" price="$20000" day="4" people="5" />
                     </Col>
