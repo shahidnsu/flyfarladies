@@ -2,7 +2,7 @@ import React from 'react';
 import { faFacebook, faGoogle, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { Container,Row,Col,Stack,Button } from 'react-bootstrap';
+import { Container,Row,Col,Stack } from 'react-bootstrap';
 import '../assets/style/footer.css'
 
 const Footer =() => {
@@ -46,12 +46,12 @@ const Footer =() => {
                 <p className="h2 text-center">QUICK LINKS</p>
                 <div className="mt-3 mx-3">
                    <Stack gap={3}>
-                   <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Home</li>
-                      <li class="list-group-item">About Us</li>
-                    <li class="list-group-item">Contact Us</li>
-                     <li class="list-group-item">Terms and Conditions</li>
-                     <li class="list-group-item">Refund Policy </li>
+                   <ul className="list-group list-group-flush">
+                        <li className="list-group-item">Home</li>
+                      <li className="list-group-item">About Us</li>
+                    <li className="list-group-item">Contact Us</li>
+                     <li className="list-group-item">Terms and Conditions</li>
+                     <li className="list-group-item">Refund Policy </li>
 </ul>
                    </Stack>
                 </div>

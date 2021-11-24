@@ -2,7 +2,7 @@ import React from "react";
 import { Container,Row,Col, Carousel } from "react-bootstrap";
 import '../assets/style/Mainimage.css'
 import test from '../assets/images/test.jpeg';
-import Mainimageslide from './Mainimageslide'
+
 
 const MainImage =() => {
 

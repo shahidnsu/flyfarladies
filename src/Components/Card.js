@@ -23,14 +23,14 @@ const card = ({des, price, day,people}) => {
              Explore Turkey in the most beautiful way
        </Card.Text>
     <div className="d-flex justify-content-between">
-        <div class="d-flex justify-content-start">
+        <div className="d-flex justify-content-start">
 
         <p className="mt-2 h5"><FontAwesomeIcon icon ={faCircleNotch} size="1x" /> {day} days tour </p>
         
 
         </div>
 
-        <div class="d-flex justify-content-start">
+        <div className="d-flex justify-content-start">
 
         <p className="mt-2 h5"> <FontAwesomeIcon icon ={faUsers} size="1x" />{people} persons </p>
         
