@@ -7,7 +7,9 @@ const Slideshow = ({item}) => {
     return (
         <div>
 
-<Carousel>
+<Carousel variant 
+   indicators ={false}
+   controls ={false}>
   <Carousel.Item>
   <Container fluid>
             <Row className="mt-5 ms-2 d-flex">
