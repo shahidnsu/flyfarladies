@@ -14,7 +14,9 @@ const Teamsection = () => {
 
         <Row>
             <Col>
-                <Carousel>
+                <Carousel
+                variant indicators = {false}
+                    controls ={false}>
                     <Carousel.Item>
                     <div className="d-flex ">
 
