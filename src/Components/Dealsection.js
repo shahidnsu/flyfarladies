@@ -5,7 +5,7 @@ import '../assets/style/dealSection.css'
 
 const Dealsection = () => {
 
-    let dealSection = <Container fluid>
+    let dealSection = <Container fluid className="mt-4">
 
     <Row>
         <Col className="justify-content-sm-center " md={8} lg={8} sm={12} xs={12}>
