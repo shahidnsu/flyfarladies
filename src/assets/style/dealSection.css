@@ -1,0 +1,23 @@
+.deals-left-heading {
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.deals-left-content {
+    font-size:  15px;
+    padding: 10px 0 20px;
+}
+
+.review-box-heading {
+    font-size: 30px;
+    margin: 30px 30px 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.review-box-reviewer-name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+

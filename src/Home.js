@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Jobsection from "./Components/Jobsection";
 import MainImage from "./Components/Mainimage";
 import Mainhero from "./Components/Mainhero";
+import Dealsection from "./Components/Dealsection";
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
         <Toursection />
         <Jobsection /> 
         <MainImage />
+        <Dealsection />
        
          <Footer />
         
