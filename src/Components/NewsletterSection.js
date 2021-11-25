@@ -10,7 +10,7 @@ const NewsletterSection = () => {
         <p className="news-letter-content-title">10 Best Day trip from Dhaka</p>
         <p>Days trip can be really effective for coming out form the hectic city life in this modern era.Here we introduce you to some  of the most enchanting places in Bangladesh where you can visit for  your ....</p>
 
-        <p>October 25, 2021 </p>
+        <p className="mt-5">October 25, 2021 </p>
     </div>
 
     return (
