@@ -13,33 +13,34 @@ const Teamsection = () => {
         </Row>
 
         <Row>
-            <Col>
+            
                 <Carousel
                 variant indicators = {false}
                     controls ={false}>
                     <Carousel.Item>
                     <div className="d-flex ">
 
-
-                    <div className="d-flex flex-column align-items-center border   shadow   col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    
+                    <div className="d-flex flex-column align-items-center  border   shadow    col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <img  className ="w-100" src={test} alt="first slide " />
                     <p className="team-member-heading align-self-start ms-2">Samia Akter</p>
                     <p className="team-member-position align-self-start ms-2">Accounts officer</p>
                     </div>
+                    
 
 
-                    <div className="d-flex flex-column align-items-center border  ms-4 shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div className="d-flex flex-column align-items-center border  ms-2 shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <img  className ="w-100 border" src={test} alt="first slide" />
                     <p className="team-member-heading align-self-start ms-2">Samia Akter</p>
                     <p className="team-member-position align-self-start ms-2">Accounts officer</p>
                     </div>
 
-                    <div className="d-flex flex-column align-items-center border ms-4 shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div className="d-flex flex-column align-items-center border ms-2 shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <img  className ="w-100" src={test} alt="first slide" />
                     <p className="team-member-heading align-self-start ms-2">Samia Akter</p>
                     <p className="team-member-position align-self-start ms-2">Accounts officer</p>
                     </div>
-                    <div className="d-flex flex-column align-items-center border ms-4 align-items-center shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div className="d-flex flex-column align-items-center border ms-2 align-items-center shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <img  className ="w-100" src={test} alt="first slide" />
                     <p className="team-member-heading align-self-start ms-2">Samia Akter</p>
                     <p className="team-member-position align-self-start ms-2">Accounts officer</p>
@@ -51,7 +52,7 @@ const Teamsection = () => {
 
 
                     <Carousel.Item>
-                    <div className="d-flex ">
+                    <div className="d-flex">
 
 
                     <div className="d-flex flex-column align-items-center border   shadow   col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -61,7 +62,7 @@ const Teamsection = () => {
                     </div>
 
 
-                    <div className="d-flex flex-column align-items-center border  ms-4 shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div className="d-flex flex-column align-items-center border  ms-2 shadow col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <img  className ="w-100 border" src={test} alt="first slide" />
                     <p className="team-member-heading align-self-start ms-2">Samia Akter</p>
                     <p className="team-member-position align-self-start ms-2">Accounts officer</p>
@@ -82,7 +83,7 @@ const Teamsection = () => {
 
                     </Carousel.Item>
                 </Carousel>
-            </Col>
+            
         </Row>
     </Container>
 
