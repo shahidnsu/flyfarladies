@@ -9,6 +9,7 @@ import MainImage from "./Components/Mainimage";
 import Mainhero from "./Components/Mainhero";
 import Dealsection from "./Components/Dealsection";
 import Teamsection from "./Components/Teamsection";
+import NewsletterSection from "./Components/NewsletterSection";
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
         <MainImage />
         <Dealsection />
         <Teamsection />
+        <NewsletterSection />
        
          <Footer />
         

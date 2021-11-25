@@ -1,0 +1,22 @@
+
+.news-letter-content-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.news-letter-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background: #ebebeb;
+    margin-bottom: 15px;
+}
+.news-letter-button {
+    width: 100%;
+    padding: 10px 15px ;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    background: #632065;
+    color:#ddd;
+}
