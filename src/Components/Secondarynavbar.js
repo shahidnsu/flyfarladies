@@ -2,14 +2,6 @@ import React from "react";
 import { Container,Navbar,Nav,NavDropdown } from "react-bootstrap";
 import '../assets/style/Secondarynavbar.css';
 import logo  from '../assets/images/logo.png';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import Home from "../Home";
-import Gallery from "./Gallery";
 
 const Secondarynavbar = () =>
 {
