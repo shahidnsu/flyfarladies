@@ -4,7 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home'
 import './style.css'
 
+
 ReactDom.render(
-    <Home />,
+    
+        <Home />,
+   
+    
     document.getElementById('root')
 )
