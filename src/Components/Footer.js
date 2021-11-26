@@ -1,5 +1,5 @@
 import React from 'react';
-import { faCreativeCommonsNcJp, faFacebook, faGoogle, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import {  faFacebook, faGoogle, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Container,Row,Col,Stack } from 'react-bootstrap';
