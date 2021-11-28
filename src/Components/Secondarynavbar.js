@@ -2,6 +2,7 @@ import React from "react";
 import { Container,Navbar,Nav,NavDropdown } from "react-bootstrap";
 import '../assets/style/Secondarynavbar.css';
 import logo  from '../assets/images/logo.png';
+import {Link} from 'react-router-dom';
 
 const Secondarynavbar = () =>
 {
@@ -16,9 +17,9 @@ const Secondarynavbar = () =>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto ">
-      <Nav.Link   className="text-dark h5 nav-link-a" >Home</Nav.Link>
+      <Nav.Link    as ={Link} to="/" className="text-dark h5 nav-link-a" >Home</Nav.Link>
 
-        <Nav.Link  className="text-dark h5 nav-link-a">Gallery</Nav.Link> 
+        <Nav.Link  as ={Link} to="/gallery" className="text-dark h5 nav-link-a">Gallery</Nav.Link> 
         <Nav.Link  className="text-dark h5 nav-link-a" href="#stockPhotos">Stock Photos</Nav.Link>
         <Nav.Link  className="text-dark h5 nav-link-a" href="#job">Job</Nav.Link>
         <Nav.Link  className="text-dark h5 nav-link-a" href="#blog">Blog</Nav.Link>
