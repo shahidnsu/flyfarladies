@@ -4,6 +4,8 @@ import Home from './Components/Home'
 import Gallery from '../src/Components/Gallery';
 import './style.css';
 import {BrowserRouter as Router,Switch,Route } from 'react-router-dom'
+import Secondarynavbar from "./Components/Secondarynavbar";
+import Footer from  "./Components/Footer";
 
 
 ReactDom.render(
@@ -16,7 +18,9 @@ ReactDom.render(
             <Home />
         </Route>
         <Route exact path="/gallery">
+            <Secondarynavbar />
             <Gallery />
+            <Footer />
         </Route>
 
         </Switch>
