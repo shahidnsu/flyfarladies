@@ -1,0 +1,19 @@
+.gallery-label
+{
+    display: block;
+    color: #642166;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 0 10px;
+    line-height: 22px;
+}
+
+.gallery-label-button {
+   
+    padding: 9px 20px;
+    background: #632065;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
