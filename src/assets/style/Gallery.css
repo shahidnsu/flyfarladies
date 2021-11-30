@@ -17,3 +17,9 @@
     font-size: 16px;
     font-weight: 600;
 }
+.gallery-heading {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
