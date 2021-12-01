@@ -7,6 +7,7 @@ import {BrowserRouter as Router,Switch,Route } from 'react-router-dom'
 import Secondarynavbar from "./Components/Secondarynavbar";
 import Footer from  "./Components/Footer";
 import Topnavbar from "./Components/Topnavbar";
+import Job from "./Components/Job";
 
 
 ReactDom.render(
@@ -24,7 +25,13 @@ ReactDom.render(
             <Gallery />
             <Footer />
         </Route>
+        <Route exact path="/job">
+        <Topnavbar />
+        <Secondarynavbar />
 
+        <Job />
+        <Footer />
+        </Route>
         </Switch>
         
     </Router>,

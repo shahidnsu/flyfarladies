@@ -21,7 +21,7 @@ const Secondarynavbar = () =>
 
         <Nav.Link  as ={Link} to="/gallery" className="text-dark h5 nav-link-a">Gallery</Nav.Link> 
         <Nav.Link  className="text-dark h5 nav-link-a" href="#stockPhotos">Stock Photos</Nav.Link>
-        <Nav.Link  className="text-dark h5 nav-link-a" href="#job">Job</Nav.Link>
+        <Nav.Link  as ={Link} to ="/job"className="text-dark h5 nav-link-a" href="#job">Job</Nav.Link>
         <Nav.Link  className="text-dark h5 nav-link-a" href="#blog">Blog</Nav.Link>
         <Nav.Link  className="text-dark h5 nav-link-a" href="#packages">Packages</Nav.Link>
         <Nav.Link className="text-dark  h5 nav-link-a" href="#travel">Travel</Nav.Link>
