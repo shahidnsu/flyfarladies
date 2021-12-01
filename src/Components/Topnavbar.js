@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import { Container,Row,Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
@@ -13,9 +12,9 @@ const Topnavbar = () => {
 
     return(
 
-        <Container fluid className="border p-3 bg-light">
+        <Container fluid className="border  bg-light">
 
-        <Row>
+        <Row className="p-3">
             <Col sm="12" xs="12" md="6" lg="6" className="d-flex justify-content-sm-center justify-content-xs-center justify-content-md-start justify-content-lg-start">
             <img src={call} alt="call"   />
             
