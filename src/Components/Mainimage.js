@@ -18,30 +18,30 @@ const MainImage =() => {
                 </Col>
             </Row>
             <Row className="mx-2">
-            <Col className="d-flex">
+           
                 <Carousel variant 
                 indicators={false}
                 controls={false}> 
                     <Carousel.Item>
-                    <div className="d-flex">
-                    <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">
+                    <div className="d-flex " >
+                    <div className=  " shadow" >
                     
                     <img  className ="w-75" src={test} alt="testing purpose"/>
 
                     </div>
 
 
-                      <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">                   
+                      <div className="col-md-3 col-lg-3 col-sm-12  shadow">                   
 
                     <img  className ="w-75 ms-1" src={test} alt="testing purpose"/>
                     </div>
 
-                    <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">
+                    <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
                     <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
                     </div>
 
-                    <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">
+                    <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
                     <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
                     </div>
@@ -52,24 +52,24 @@ const MainImage =() => {
 
                     <Carousel.Item>
                     <div className="d-flex">
-                    <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">
+                    <div className="col-md-3 col-lg-3 col-sm-12  shadow">
                     
                     <img  className ="w-75" src={test} alt="testing purpose"/>
 
                     </div>
 
 
-                      <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">                   
+                      <div className="col-md-3 col-lg-3 col-sm-12  shadow">                   
 
                     <img  className ="w-75 ms-1" src={test} alt="testing purpose"/>
                     </div>
 
-                    <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">
+                    <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
                     <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
                     </div>
 
-                    <div className="col-md-3 col-lg-3 col-sm-12 col-xs-12 shadow">
+                    <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
                     <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
                     </div>
@@ -79,7 +79,7 @@ const MainImage =() => {
 
                 </Carousel>
 
-                </Col>
+                
             </Row>
             <Row className="mt-4 border-bottom">
                 <Col>

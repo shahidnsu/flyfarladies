@@ -7,10 +7,10 @@ import '../assets/style/card.css';
 const card = ({des, price, day,people}) => {
 
     return(
-        <div>
+        <>
 
       
-                 <Card className="shadow" style={{ width: '20rem' ,height : '30rem'}}>
+                 <Card className="shadow " style={{ width: '20rem' ,height : '30rem'}}>
        <Card.Img variant="top" src={test} />
          <Card.Body>
          <div className="d-flex justify-content-between">
@@ -45,7 +45,7 @@ const card = ({des, price, day,people}) => {
              
 
 
-        </div>
+        </>
     )
 }
 export default card;

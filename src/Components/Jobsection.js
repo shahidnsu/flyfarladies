@@ -7,10 +7,10 @@ import Slideshow from './Slideshow';
 const Jobsection = () => 
 {
     return (
-        <div>
+        <>
 
             <Container fluid>
-            <Row className="mt-5 me-5 ">
+            <Row className="mt-5  ">
             <Col>
 
                 <p className="h4 text-center">Employee Offering job</p>
@@ -25,7 +25,7 @@ const Jobsection = () =>
             
 
             
-        </div>
+        </>
     )
 }
 
