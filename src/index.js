@@ -6,6 +6,7 @@ import './style.css';
 import {BrowserRouter as Router,Switch,Route } from 'react-router-dom'
 import Secondarynavbar from "./Components/Secondarynavbar";
 import Footer from  "./Components/Footer";
+import Topnavbar from "./Components/Topnavbar";
 
 
 ReactDom.render(
@@ -18,6 +19,7 @@ ReactDom.render(
             <Home />
         </Route>
         <Route exact path="/gallery">
+            <Topnavbar />
             <Secondarynavbar />
             <Gallery />
             <Footer />

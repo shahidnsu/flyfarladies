@@ -13,7 +13,7 @@ const Topnavbar = () => {
 
     return(
 
-        <Container fluid className="border  bg-light">
+        <Container fluid className="border p-3 bg-light">
 
         <Row>
             <Col sm="12" xs="12" md="6" lg="6" className="d-flex justify-content-sm-center justify-content-xs-center justify-content-md-start justify-content-lg-start">
