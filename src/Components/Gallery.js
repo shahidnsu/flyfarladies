@@ -8,8 +8,8 @@ const Gallery = () => {
     return(
         <>
         <Container>
-            <Row>
-                <Col>
+            <Row >
+                <Col sm='12' md='10' lg='10'>
                 <p className="gallery-heading">{heading}</p>
                 </Col>
             </Row>
@@ -20,7 +20,7 @@ const Gallery = () => {
         
             <Row>
             
-            <Col  lg="3" md="3" sm="12" className="shadow mt-1">
+            <Col  lg="3" md="3" sm="12" className="shadow mt-1 row-no-margin">
             
                 
                     
@@ -51,7 +51,7 @@ const Gallery = () => {
                 
             </Col>
             
-            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1">
+            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1 row-no-margin">
                 
 
                  <div className ="d-flex">
@@ -73,7 +73,7 @@ const Gallery = () => {
                            <span className="gallery-label-button text-center w-2 mx-auto mb-4">View</span>
                        </div>
             </Col>
-            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1">
+            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1 row-no-margin">
             <div className ="d-flex">
                            <img src={test} className="w-75" alt="Nepal tour" />
                           
@@ -106,7 +106,7 @@ const Gallery = () => {
             
             <Container className="d-flex mt-3">
             <Row>
-            <Col  lg="3" md="3" sm="12" className="shadow mt-1">
+            <Col  lg="3" md="3" sm="12" className="shadow mt-1 row-no-margin">
             
                 
                     
@@ -135,7 +135,7 @@ const Gallery = () => {
                     
                 
             </Col>
-            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1">
+            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1 row-no-margin">
                 
 
                  <div className ="d-flex">
@@ -157,7 +157,7 @@ const Gallery = () => {
                            <span className="gallery-label-button text-center w-2 mx-auto mb-4">View</span>
                        </div>
             </Col>
-            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1">
+            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1 row-no-margin">
             <div className ="d-flex">
                            <img src={test} className="w-75" alt="Nepal tour" />
                           
@@ -189,7 +189,7 @@ const Gallery = () => {
             
             <Container className="d-flex mt-3 justify-content-sm-center">
             <Row>
-            <Col  lg="3" md="3" sm="12" className="shadow mt-1">
+            <Col  lg="3" md="3" sm="12" className="shadow mt-1 row-no-margin">
             
                 
                     
@@ -218,7 +218,7 @@ const Gallery = () => {
                     
                 
             </Col>
-            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1">
+            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1 row-no-margin">
                 
 
                  <div className ="d-flex">
@@ -240,7 +240,7 @@ const Gallery = () => {
                            <span className="gallery-label-button text-center w-2 mx-auto mb-4">View</span>
                        </div>
             </Col>
-            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1">
+            <Col lg="3" md="3" sm="12" className="shadow ms-2 mt-1 row-no-margin">
             <div className ="d-flex">
                            <img src={test} className="w-75" alt="Nepal tour" />
                           

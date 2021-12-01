@@ -23,3 +23,6 @@
     text-align: center;
     padding-bottom: 30px;
 }
+.row-no-margin {
+    padding:  0;
+}
