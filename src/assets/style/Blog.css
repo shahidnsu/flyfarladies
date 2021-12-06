@@ -1,0 +1,22 @@
+.blog-section-heading {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.blog-section-text {
+    font-size: 15px;
+    
+    color: #231f20;
+    line-height: 25px;
+    overflow: hidden;
+    max-height: 50px;
+}
+.blog-section-date {
+    color: #231f20;
+    line-height: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    max-height: 75px;
+    overflow: hidden;
+}

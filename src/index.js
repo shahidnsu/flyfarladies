@@ -8,6 +8,7 @@ import Secondarynavbar from "./Components/Secondarynavbar";
 import Footer from "./Components/Footer";
 import Topnavbar from "./Components/Topnavbar";
 import Job from "./Components/Job";
+import Blog from "./Components/Blog";
 
 
 ReactDom.render(
@@ -31,6 +32,14 @@ ReactDom.render(
         <Footer  />
        
         
+      </Route>
+
+      <Route exact path="/blog"> 
+      <Topnavbar />
+      <Secondarynavbar />
+      <Blog />
+      <Footer />
+
       </Route>
     </Switch>
   </Router>,
