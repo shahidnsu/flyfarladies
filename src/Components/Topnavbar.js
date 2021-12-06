@@ -30,7 +30,7 @@ const Topnavbar = () => {
             0175558211, info@flyfarladies.com
           </h5>
         </Col>
-        <Col className="d-flex justify-content-md-end justify-content-lg-end justify-content-sm-end justify-content-xs-end">
+        <Col className="d-flex justify-content-md-end justify-content-lg-end justify-content-sm-end">
           <Button className="rounded-pill border-white" variant="dark">
             Login/Register
           </Button>
