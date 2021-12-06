@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import Topnavbar from "./Components/Topnavbar";
 import Job from "./Components/Job";
 
+
 ReactDom.render(
   <Router>
     <Switch>
@@ -26,7 +27,10 @@ ReactDom.render(
         <Secondarynavbar />
 
         <Job />
-        <Footer />
+        
+        <Footer  />
+       
+        
       </Route>
     </Switch>
   </Router>,

@@ -35,7 +35,7 @@ const Job = () => {
         
         <Col sm='12' lg='5' md='5' className="input-job">
         
-        <input type="text" placeholder="Job Title Keywords Or Company" className=" input-job-title">
+        <input type="text" placeholder="Job Title Keywords Or Company" className=" input-job-title p-3">
             
         </input>
         </Col>
@@ -44,7 +44,7 @@ const Job = () => {
         <Col sm='12' lg='4' md='4'  className="input-job input-job-border">
         
         
-        <input type="text" placeholder="Town or Region" className=" input-job-title">
+        <input type="text" placeholder="Town or Region" className=" input-job-title p-3">
             
         </input>
         </Col>
@@ -60,7 +60,7 @@ const Job = () => {
 
        
         <Row>
-            <Col className='mt-2'>
+            <Col className='mt-2 mx-2'>
                 <span className="job-number-heading">
                     <span className="job-heading-number">14</span> jobs published in Bangladesh
                 </span>
@@ -113,7 +113,7 @@ const Job = () => {
         */}
        
 
-        <Row className="mt-2 mx-2 d-flex justify-content-between" >
+        <Row className="mt-4 mx-2 d-flex justify-content-between" >
         <Col className="border rounded-1 p-4" sm='12' md='5' lg='5'>
         <Row>
             <Col className="d-flex flex-column ">
