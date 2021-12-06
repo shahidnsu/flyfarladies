@@ -8,3 +8,31 @@
     text-align: center;
     border: 1px solid #632065;
 }
+
+.footer-copyright-p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.copyright {
+    background: #231f20;
+    padding: 100px 0 30px;
+    text-align: center;
+    margin-top: -70px;
+    z-index: 0;
+
+}
+.footer-main {
+    
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+    
+    box-shadow: 3px -10px 58px -22px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 999;
+    background: #fff;
+}

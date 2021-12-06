@@ -12,7 +12,7 @@ const Footer =() => {
            <Container fluid className="mt-5 shadow-lg">
           
 
-           <Row>
+           <Row className="footer-main">
            
 
            <Col md="3" lg="3" sm="12" > 
@@ -81,6 +81,12 @@ const Footer =() => {
                 
 
 
+                </Row>
+
+                <Row>
+                  <Col className="copyright">
+                    <p className="footer-copyright-p">Copyright © FlyFarLadies 2021, All Rights Reserved.</p>
+                  </Col>
                 </Row>
             </Container>
         </div>
