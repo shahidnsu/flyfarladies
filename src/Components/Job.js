@@ -3,6 +3,7 @@ import { Container,Row,Col } from "react-bootstrap";
 import '../assets/style/Job.css'
 import bag from '../assets/images/bag.png'
 import location from '../assets/images/location.png'
+import product from '../assets/images/product.svg'
 
 
 const Job = () => {
@@ -37,7 +38,7 @@ const Job = () => {
         </Col>
 
 
-        <Col sm='12' lg='4' md='4'  className="input-job">
+        <Col sm='12' lg='4' md='4'  className="input-job input-job-border">
         
         
         <input type="text" placeholder="Town or Region" className=" input-job-title">
@@ -46,10 +47,51 @@ const Job = () => {
         </Col>
 
 
-       <Col sm='12' lg='3' md='3' className="input-button">
+       <Col sm='12' lg='3' md='3' >
            <button className="job-input-button">Search</button>
        </Col>
         
+
+        </Row>
+        <Row>
+            <Col className='mt-2'>
+                <span className="job-number-heading">
+                    <span className="job-heading-number">14</span> jobs published in Bangladesh
+                </span>
+            </Col>
+            </Row>
+
+
+        <Row className="mt-5 border  mx-2">
+            <Col className="border-end border-bottom p-3">
+            <img className='me-1' src={product} alt="product"/>
+                <span>Accounting</span>
+            </Col>
+
+            <Col className="border-end border-bottom p-3">
+            <img className='me-1' src={product} alt="product"/>
+                <span>Content Writing</span>
+            </Col>
+            <Col className="border-end border-bottom p-3">
+            <img className='me-1' src={product} alt="product"/>
+                <span>Engineering</span>
+            </Col>
+            <Col className= "border-end p-3">
+            <img className='me-1' src={product} alt="product"/>
+                <span>HR</span>
+            </Col>
+        </Row>
+
+
+        <Row className="border mx-2">
+
+        <Col className="border-end p-3" lg='3' md='3' sm='12'>
+        <img className='me-1' src={product} alt="product"/>
+                <span>System Engineering</span>
+            </Col>
+            <Col className= "border-end p-3">
+                
+            </Col>
 
         </Row>
 

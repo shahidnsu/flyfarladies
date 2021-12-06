@@ -12,6 +12,9 @@
   border-right: 1px solid #b7b7b7;
 
 }
+.input-job-border {
+  border-right: none;
+}
 .input-job-title {
   border: none;
   width: 100%;
@@ -33,6 +36,17 @@
    
 
 }
+
+.job-number-heading {
+  font-size: 18px;
+  color: #1a1746;
+  padding-top: 15px;
+}
+
+.job-heading-number {
+  color:#632065;
+  font-weight: 600;
+}
 @media(max-width:767px){
     .search-box-heading
     {
@@ -42,7 +56,7 @@
         border:1px solid #632065; 
         padding:12px; 
         border-radius:4px;
-       margin: 1%
+        margin: 1%
         
 
     }
@@ -54,6 +68,7 @@
         
         
     }
+    
     .job-input-button{
        display: block;
        width: 100%;
