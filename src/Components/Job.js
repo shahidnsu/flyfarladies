@@ -14,7 +14,7 @@ const Job = () => {
     return(
         <>
         
-        <Container fluid className="mt-5">
+        <Container fluid className="mt-5 body">
 
         <Row className="p-3 search-box-heading">
             <Col lg='5' md='5'>
@@ -27,10 +27,11 @@ const Job = () => {
                 <span className="ms-2 search-label">Where</span>
             </Col>
         </Row>
+        
 
 
-
-        <Row className="job-input-box">
+      
+        <Row className="job-input-box mx-2">
         
         <Col sm='12' lg='5' md='5' className="input-job">
         
@@ -55,6 +56,9 @@ const Job = () => {
         
 
         </Row>
+        
+
+       
         <Row>
             <Col className='mt-2'>
                 <span className="job-number-heading">
@@ -62,8 +66,9 @@ const Job = () => {
                 </span>
             </Col>
             </Row>
+            
 
-
+       
         <Row className="mt-5 border  mx-2">
             <Col className="border-end border-bottom p-3">
             <img className='me-1' src={product} alt="product"/>
@@ -96,6 +101,7 @@ const Job = () => {
             </Col>
 
         </Row>
+        
 
         {/*
         
@@ -105,6 +111,7 @@ const Job = () => {
         
         
         */}
+       
 
         <Row className="mt-2 mx-2 d-flex justify-content-between" >
         <Col className="border rounded-1 p-4" sm='12' md='5' lg='5'>
