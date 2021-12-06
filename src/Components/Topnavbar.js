@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import cart from "../assets/images/cart.svg";
 import call from "../assets/images/call.png";
+import '../assets/style/topnavbar.css';
 
 const Topnavbar = () => {
   return (
@@ -13,7 +14,7 @@ const Topnavbar = () => {
           xs="12"
           md="6"
           lg="6"
-          className="d-flex justify-content-sm-center justify-content-xs-center justify-content-md-start justify-content-lg-start"
+          className="d-flex justify-content-sm-center justify-content-xs-center justify-content-md-start justify-content-lg-start topnavbar-address"
         >
           <img src={call} alt="call" />
 
@@ -29,7 +30,7 @@ const Topnavbar = () => {
             0175558211, info@flyfarladies.com
           </h5>
         </Col>
-        <Col className="d-flex justify-content-md-end justify-content-lg-end justify-content-sm-center justify-content-xs-center">
+        <Col className="d-flex justify-content-md-end justify-content-lg-end justify-content-sm-end justify-content-xs-end">
           <Button className="rounded-pill border-white" variant="dark">
             Login/Register
           </Button>
