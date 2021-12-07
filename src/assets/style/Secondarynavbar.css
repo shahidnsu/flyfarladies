@@ -11,3 +11,17 @@ a {
    
     text-decoration: none;
 }
+.hover-effect {
+    font-size: 14px;
+    
+    font-weight: 700;
+    color: #121d22;
+    display: inline-block;
+    margin: 0 6px;
+    position: relative;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+}
+.hover-effect:hover {
+    border-bottom: 4px solid #231f20;
+}
