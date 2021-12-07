@@ -1,0 +1,33 @@
+.video-section {
+    background: url(../images/video.jpeg) no-repeat;
+    padding: 0;
+    background-size: cover;
+    text-align: center;
+    position: static;
+    background-position: left 0;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 200px;
+}
+
+.video-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.video-button {
+    display: inline-block;
+    cursor: pointer;
+   
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.video-section .heading {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+}

@@ -9,6 +9,7 @@ import Mainhero from "./Mainhero";
 import Dealsection from "./Dealsection";
 import Teamsection from "./Teamsection";
 import NewsletterSection from "./NewsletterSection";
+import Videosection from "./Videosection";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Secondarynavbar />
       <Mainhero />
       <Toursection />
+      <Videosection />
       <Jobsection />
       <MainImage />
       <Dealsection />
