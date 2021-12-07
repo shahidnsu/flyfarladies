@@ -1,7 +1,8 @@
 import React from 'react';
-import {  faFacebook, faGoogle, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import youtube from '../assets/images/youtube.png'
+import twitter from '../assets/images/twitter.png'
+import facebook from '../assets/images/facebook.png'
+import In from '../assets/images/in.png'
 import { Container,Row,Col,Stack } from 'react-bootstrap';
 import '../assets/style/footer.css'
 
@@ -65,11 +66,13 @@ const Footer =() => {
            <p className="h5 mt-5 ">SOCIAL WITH US</p>
 
                 <Stack direction ="horizontal" gap={3} className="mt-4">
-                  <FontAwesomeIcon icon={faFacebook} size="2x" />
-                 <FontAwesomeIcon icon ={faYoutube} size="2x"/>
-                 <FontAwesomeIcon icon= {faLinkedin} size="2x"/>
-                 <FontAwesomeIcon icon ={faTwitter} size="2x"/>
-                 <FontAwesomeIcon icon ={faGoogle} size="2x"/>
+
+                
+                <img src={facebook} alt="facebook-logo" />
+                <img src={youtube} alt="facebook-logo" />
+                <img src={twitter} alt="facebook-logo" />
+                <img src={In} alt="facebook-logo" />
+                  
 
                   </Stack>
                
