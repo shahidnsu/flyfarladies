@@ -13,10 +13,10 @@ const Secondarynavbar = () =>
    
    <Navbar  expand="lg" >
   <Container fluid className="mt-3 ps-5">
-    <Navbar.Brand  className ="text-dark h5" href="#home"><img src={logo} alt="logo" /> </Navbar.Brand>
+    <Navbar.Brand as ={Link} to="/" className ="text-dark h5"><img src={logo} alt="logo" /> </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav   className="me-auto ">
+      <Nav   className="me-auto justify-content-sm-center">
       <Nav.Link as ={Link} to="/" className="text-dark h5 nav-link-a hover-effect" >Home</Nav.Link>
 
         <Nav.Link  as ={Link} to="/gallery" className="text-dark h5 nav-link-a hover-effect">Gallery</Nav.Link> 
