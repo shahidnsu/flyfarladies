@@ -1,7 +1,7 @@
 import React from "react";
 import { Container,Row,Col, Carousel } from "react-bootstrap";
 import '../assets/style/Mainimage.css'
-import test from '../assets/images/test.jpeg';
+
 
 import stockphotos1 from '../assets/images/stockphotos1.png'
 import stockphotos2 from '../assets/images/stockphotos2.png'
