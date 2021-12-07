@@ -3,6 +3,10 @@ import { Container,Row,Col, Carousel } from "react-bootstrap";
 import '../assets/style/Mainimage.css'
 import test from '../assets/images/test.jpeg';
 
+import stockphotos1 from '../assets/images/stockphotos1.png'
+import stockphotos2 from '../assets/images/stockphotos2.png'
+
+
 
 const MainImage =() => {
 
@@ -26,24 +30,24 @@ const MainImage =() => {
                     <div className="d-flex " >
                     <div className=  " shadow" >
                     
-                    <img  className ="w-75" src={test} alt="testing purpose"/>
+                    <img  className ="w-75" src={stockphotos2} alt="testing purpose"/>
 
                     </div>
 
 
                       <div className="col-md-3 col-lg-3 col-sm-12  shadow">                   
 
-                    <img  className ="w-75 ms-1" src={test} alt="testing purpose"/>
+                    <img  className ="w-75 ms-1" src={stockphotos2} alt="testing purpose"/>
                     </div>
 
                     <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
-                    <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
+                    <img  className="w-75 ms-1" src={stockphotos1} alt="testing purpose"/>
                     </div>
 
                     <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
-                    <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
+                    <img  className="w-75 ms-1" src={stockphotos2} alt="testing purpose"/>
                     </div>
                     </div>
 
@@ -54,24 +58,24 @@ const MainImage =() => {
                     <div className="d-flex">
                     <div className="col-md-3 col-lg-3 col-sm-12  shadow">
                     
-                    <img  className ="w-75" src={test} alt="testing purpose"/>
+                    <img  className ="w-75" src={stockphotos2} alt="testing purpose"/>
 
                     </div>
 
 
                       <div className="col-md-3 col-lg-3 col-sm-12  shadow">                   
 
-                    <img  className ="w-75 ms-1" src={test} alt="testing purpose"/>
+                    <img  className ="w-75 ms-1" src={stockphotos1} alt="testing purpose"/>
                     </div>
 
                     <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
-                    <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
+                    <img  className="w-75 ms-1" src={stockphotos2} alt="testing purpose"/>
                     </div>
 
                     <div className="col-md-3 col-lg-3 col-sm-12  shadow">
 
-                    <img  className="w-75 ms-1" src={test} alt="testing purpose"/>
+                    <img  className="w-75 ms-1" src={stockphotos2} alt="testing purpose"/>
                     </div>
                     </div>
 

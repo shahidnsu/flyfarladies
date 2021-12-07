@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import test from "../assets/images/test.jpeg";
 import "../assets/style/Gallery.css";
+import stockphotos1 from '../assets/images/stockphotos1.png'
+import stockphotos2 from '../assets/images/stockphotos2.png'
+import stockphotos3 from '../assets/images/stockphotos3.png'
 
 const Gallery = () => {
   const heading = "Photo gallery";
@@ -22,9 +25,9 @@ const Gallery = () => {
               <img src={test} className="w-75" alt="Nepal tour" />
 
               <div className="d-flex flex-column ms-1">
-                <img src={test} className="w-100" alt="Nepal tour" />
-                <img src={test} className="w-100 mt-1" alt="Nepal tour" />
-                <img src={test} className="w-100 mt-1" alt="Nepal tour" />
+                <img src={stockphotos1} className="w-100" alt="Nepal tour" />
+                <img src={stockphotos3} className="w-100 mt-1" alt="Nepal tour" />
+                <img src={stockphotos2} className="w-100 mt-1" alt="Nepal tour" />
               </div>
             </div>
 
